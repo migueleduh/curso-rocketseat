@@ -178,11 +178,11 @@ footer{
 /*Media queries */
 @media (min-width: 700px) {
     :root{
-        --bg-url:url(./assets/bg-desktop.jpg);
+        --bg-url:url(/assets/bg-desktop.jpg);
     }
 
     .light{
-        --bg-utl:url(./assets/bg-desktop-light.jpg);
+        --bg-url:url(/assets/bg-desktop-light.jpg); 
     }
 
 }
